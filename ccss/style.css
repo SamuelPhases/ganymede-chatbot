@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2E735E;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sect1 {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center
+}
+
+.avatar {
+    background-color: #fff;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 1rem;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.fa-camera {
+    font-size: 3rem;
+    color: #2E735E;
+    position: absolute;
+    top: 3rem;
+    left: 3rem; 
+}
+
+
+
+input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+
+.bio {
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-name,
+.role {
+    background-color: #EDF9FC;
+    border: none;
+    border: 1px solid #EDF9FC;
+    padding: 0.4rem;
+    color: #EDF9FC;
+}
+
+.user-name {
+    margin-top: 1rem;
+    margin-bottom: 1.3rem;
+}
+
+.sect2 {
+    background-color: #EDF9FC;
+    height: 50vh; 
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 0.5s ease-in;
+}
+
+
+.full-name,
+.e-mail,
+.cell,
+.password {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #000;
+    width: 233px;
+    transition: all 0.5s ease-in;
+}
+
+
+
+.full-name,
+.e-mail,
+.cell,
+.password  {
+    margin-bottom: 1rem;
+    outline: none;
+}
+
+.custom-select{
+    width: 233px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+select {
+    width: 233px;
+    border: none;
+    padding: 0.5rem;
+    background-color: transparent;
+    outline: none;
+}
+
+.btn {
+    position: absolute;
+    bottom: 15px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #2E735E;
+    padding: 0.5rem;
+    margin-top: 3rem;
+    border-radius: 10px;
+    transition: all 0.5s ease-in;
+    outline: none;
+}
+
+.btn:hover {
+    background-color: rgb(29, 37, 36);
+    scale: 1.5;
+    outline: none;
+}
+
+.error {
+    font-size: 0.8rem;
+    color: rgb(160, 29, 29);
+    position: absolute;
+    top: 5rem;
+    left: 1rem;
+    display: none;
+}
